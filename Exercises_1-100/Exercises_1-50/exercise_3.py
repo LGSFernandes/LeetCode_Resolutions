@@ -1,17 +1,17 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        visto = {}
-        inicio = 0
-        maior = 0
+        saw = {}
+        start = 0
+        bigger = 0
 
         for i, char in enumerate(s):
-            if char in visto and visto[char] >= inicio:
-                inicio = visto[char] + 1
+            if char in saw and saw[char] >= start:
+                start = saw[char] + 1
 
-            visto[char] = i
-            maior = max(maior, i - inicio + 1)
+            saw[char] = i
+            bigger = max(bigger, i - start + 1)
 
-        return maior
+        return bigger
 
 
 solution = Solution()

@@ -30,9 +30,9 @@ public class exercise_29 {
         Solution solution = new Solution();
         
         int dividend1 = 10, divider1 = 3;
-        System.out.println("Result 1: " + solution.divide(dividend1, divider1)); // Expected output: 3
+        System.out.println("Result 1: " + solution.divide(dividend1, divider1));
 
         int dividend2 = 7, divider2 = -3;
-        System.out.println("Result 2: " + solution.divide(dividend2, divider2)); // Expected output: -2
+        System.out.println("Result 2: " + solution.divide(dividend2, divider2));
     }
 }

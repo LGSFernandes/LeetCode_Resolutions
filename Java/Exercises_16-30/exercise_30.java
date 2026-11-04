@@ -68,4 +68,4 @@ public class exercise_30 {
         String[] words2 = {"word", "good", "best", "word"};
         System.out.println("Result 2: " + solution.findSubstring(s2, words2));
     }
-}
+} 

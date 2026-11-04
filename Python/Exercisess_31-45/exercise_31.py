@@ -1,6 +1,3 @@
-import sys
-
-
 class Solution:
     def nextPermutation(self, nums: list[int]) -> None:
         n = len(nums)

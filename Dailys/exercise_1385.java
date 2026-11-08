@@ -1,5 +1,3 @@
-package Dailys;
-
 import java.util.Arrays;
 
 class Solution {

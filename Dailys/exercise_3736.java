@@ -1,5 +1,3 @@
-package Dailys;
-
 class Solution {
     public int minMoves(int[] nums) {
         int maxVal = nums[0];

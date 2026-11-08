@@ -1,5 +1,3 @@
-package Dailys;
-
 class Solution {
     public int uniquePaths(int[][] grid) {
         int MOD = 1_000_000_007;
